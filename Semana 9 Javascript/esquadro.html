@@ -1,6 +1,6 @@
 
 <meta charset="UTF-8">
-<title>Semana 9 - Aula 1 </title>
+<title>Semana 9 - Esquadro </title>
 
 <canvas width="600" height="400"></canvas>
 
@@ -10,34 +10,35 @@
     var pincel = tela.getContext('2d');
 
 /*
-Funcoes  do JavaScript
+Funcoes  do JavaScript de desenho
 
 pincel.fillRect (x,y, altura, largura); - Composição de objeto/ilustração
 
 pincel.fillStyle = 'cor';  - função de definir a cor
 
+pincel.beginPath()
+
+pincel.moveTo()
+
+pincel.lineTo()
+
+pincel.fill
+
 */
 
 
-    pincel.fillStyle = 'lightgrey';
-    pincel.fillRect(0,0, 600,400);
-
-    pincel.fillStyle = 'green';
-    pincel.fillRect(0, 0, 200, 400);
-    
-    pincel.fillStyle = 'red';
-    pincel.fillRect(400, 0, 200, 400);
-
-    pincel.fillStyle = 'yellow';
+    pincel.fillStyle = 'black';
     pincel.beginPath();
-    pincel.moveTo(300, 200);
-    pincel.lineTo(200, 400);
+    pincel.moveTo(50, 50);
+    pincel.lineTo(50, 400);
     pincel.lineTo(400, 400);
     pincel.fill();
 
-    pincel.fillStyle = 'blue';
+    pincel.fillStyle = 'white';
     pincel.beginPath();
-    pincel.arc(300, 200, 50, 0, 2*3.14);
+    pincel.moveTo(100, 175);
+    pincel.lineTo(100, 350);
+    pincel.lineTo(275, 350);
     pincel.fill();
 
 
