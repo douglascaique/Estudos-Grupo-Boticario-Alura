@@ -130,4 +130,6 @@ como se estivessemos usando essa classe para criar um objeto
 
 - Encapsulamento
 - Herança
+  - forma original do JS trabalhar com objetos antes de existirem as classes
+  - 
 - Polimorfismo
