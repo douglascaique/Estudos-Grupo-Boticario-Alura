@@ -1,0 +1,13 @@
+{
+  "name": "semana-11---programacao-orientada-a-objetos",
+  "version": "1.0.0",
+  "description": "São abordagens sobre como resolver problemas de programaçao",
+  "type": "module",
+  "main": "modelando-objetos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
