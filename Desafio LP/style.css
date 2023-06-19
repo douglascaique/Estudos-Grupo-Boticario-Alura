@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+:root{
+    --cerise-color: #DB1E8C;
+    --carnation-color: #FF97D3;
+    --pickled-bluewood-color: #33475B;
+    --white-color: #FFFFFF;
+    --cornflower-color: #264FEC;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #FFFFFF;
+    height: 80px;
+    display: flex;
+}
+
+body{
+    background-color: #33475B;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container-elementos-header{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.titulo-principal {
+    color: #0000EE;
+    font-size: 24px;
+    font-weight: 400px;
+    font-style: normal;
+    line-height: 31px;
+}
+
+.label-pesquisa {
+    background-color: #DB1E8C;
+    height: 40px;
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.input-pesquisa {
+    background-color: transparent;
+    border: none;
+    padding: 4px;
+}
+
+::placeholder {
+    color: #FF97D3;
+}
+
+/*HEADER END*/
+
+/*MAIN*/
+
+.container-trilhas {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.trilha {
+    width: calc((100% - 64px) / 3);
+    background-color: white;
+    padding: 32px 32px 96px 32px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.titulo-secundario {
+    color: #364372;
+    margin-bottom: 24px;
+}
+
+.paragrafo-trilha {
+    margin-bottom: 20px;
+}
+
+.link-ementa {
+    border: 1px solid #264FEC;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #264FEC;
+    padding: 16px;
+    width: 160px;
+    height: 54px;
+    transition: all 0.5s;
+    position: absolute;
+    bottom: 32px;
+    text-align: center;
+}
+
+.link-ementa:hover {
+    background-color: #264FEC;
+    color: white;
+    border-color: #0000EE;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: #FFFFFF;
+    height: 110px;
+    display: flex;
+}
+.container-elementos-footer{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-logos-footer {
+    display: flex;
+    gap: 24px;
+}
+
+.container-links-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container-links-footer a{
+    text-decoration: none;
+    color: black;
+}
+
+container-footer-direita{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.container-icones-footer {
+    display: flex;
+    gap: 16px;
+}
